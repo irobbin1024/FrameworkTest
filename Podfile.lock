@@ -1,0 +1,20 @@
+PODS:
+  - XYCategory (1.1.8)
+  - XYToolKit (0.0.17)
+
+DEPENDENCIES:
+  - XYCategory
+  - XYToolKit
+
+SPEC REPOS:
+  "git@gitlab.quvideo.com:Pods/Specs.git":
+    - XYCategory
+    - XYToolKit
+
+SPEC CHECKSUMS:
+  XYCategory: 036ed20b8ed726074ba9fb79e0e2fe943c134062
+  XYToolKit: 052f26c04f7e13301584fae0827d5473d446757d
+
+PODFILE CHECKSUM: f7e315ef5474d83fbbe4b6ae89e95674ef171dfd
+
+COCOAPODS: 1.10.1
