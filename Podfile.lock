@@ -14,13 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - HelloWorld (1.0.1):
-    - XYCategory
-  - XYCategory (2.0.1):
-    - XYCategory/Foundation (= 2.0.1)
-    - XYCategory/UIKit (= 2.0.1)
-  - XYCategory/Foundation (2.0.1)
-  - XYCategory/UIKit (2.0.1)
+  - HelloWorld (1.0.1)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -29,21 +23,17 @@ DEPENDENCIES:
   - YYModel (= 1.0.4)
 
 SPEC REPOS:
-  "git@gitlab.quvideo.com:Pods/FrameworkSpecs.git":
-    - YYModel
-  "git@gitlab.quvideo.com:Pods/GitHubSpecs.git":
-    - AFNetworking
-  "git@gitlab.quvideo.com:Pods/Specs.git":
+  "git@github.com:irobbin1024/FrameworkSpecs.git":
     - HelloWorld
+    - YYModel
   trunk:
-    - XYCategory
+    - AFNetworking
 
 SPEC CHECKSUMS:
-  AFNetworking: 6391537d7ff789c24f97865b77567a760789b60b
-  HelloWorld: e61afd13d4ab93485a16b8352f0c9c4e65ddd8dd
-  XYCategory: f77eac69f051a32cb5256458567ea34316d324f4
-  YYModel: 0c1d83a63652aed967cba87466bf58c5bfae2e07
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  HelloWorld: 54e53d80275771bac979492fd541d376816fa708
+  YYModel: 79f64ae54e54d831ee958feaa7d2e8d8c992db39
 
-PODFILE CHECKSUM: 980b0f38a2369c54b40292545fab626d34370a39
+PODFILE CHECKSUM: f38da703a31c1d3385748f37b89ec3df84aeb989
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.12.1
